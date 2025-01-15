@@ -1,0 +1,264 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #64afc2;
+    color: #333;
+}
+
+header {
+    background-color: #93b9a8;
+    color: #fff;
+    text-align: left;
+    padding: 30px 0;
+    height: 10vh;
+}
+
+.header-container h2 {
+    font-size: 2.5em;
+}
+
+.header-container p {
+    font-size: 1.2em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.donation-section {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.payment-method {
+    text-align: center;
+    width: 22%;
+}
+
+.payment-method img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.payment-method h3 {
+    color: #2c3e50;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.payment-method p {
+    font-size: 1em;
+    color: #666;
+}
+
+.account-details {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.donation-form {
+    background-color: #ecf0f1;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.donation-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.donation-form label {
+    font-weight: bold;
+}
+
+.donation-form input,
+.donation-form select,
+.donation-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1em;
+}
+
+.donation-form textarea {
+    resize: vertical;
+}
+
+.donation-form button {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donation-form button:hover {
+    background-color: #34495e;
+}
+
+.contact-email {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+/* Media Queries for Responsive Design */
+
+/* Mobile Styles (up to 767px) */
+@media (max-width: 767px) {
+    header {
+        text-align: center;
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .header-container h2 {
+        font-size: 2em;
+    }
+
+    .header-container p {
+        font-size: 1em;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .payment-methods {
+        display: block;
+        text-align: center;
+    }
+
+    .payment-method {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .payment-method img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .donation-form form {
+        display: block;
+    }
+
+    .donation-form button {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
+
+/* Tablet Styles (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        text-align: center;
+        padding: 25px 15px;
+    }
+
+    .header-container h2 {
+        font-size: 2.3em;
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    h2 {
+        font-size: 1.7em;
+    }
+
+    .payment-methods {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .payment-method {
+        width: 30%;
+    }
+
+    .payment-method img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .donation-form button {
+        width: 100%;
+        font-size: 1.1em;
+    }
+}
+
+/* Desktop Styles (1025px and above) */
+@media (min-width: 1025px) {
+    header {
+        padding: 30px 0;
+    }
+
+    .header-container h2 {
+        font-size: 2.5em;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .payment-methods {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .payment-method {
+        width: 22%;
+    }
+
+    .payment-method img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .donation-form button {
+        width: auto;
+        font-size: 1.2em;
+    }
+}

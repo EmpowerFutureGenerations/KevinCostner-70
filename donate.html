@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - empower future generations</title>
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <header>
+        <h2>
+            <img src="images/logo.png" alt="Logo" width="150px">
+        </h2>
+        <div class="nav">
+            <h4>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="donate.html">Donate</a>
+                <a href="FAQs.html">FAQs</a>
+                <a href="contact.html">Contact Info</a>
+            </h4>
+        </div>
+    </header>
+
+    <section class="donation-section">
+        <div class="container">
+            <h2>Donate to Our Cause</h2>
+            <p>Your generous donation can help us make a difference. Please choose your preferred payment method below:</p>
+
+            <!-- Payment Methods -->
+            <div class="payment-methods">
+                <div class="payment-method">
+                    <h3>PayPal</h3>
+                    <img src="images/PayPal.png" alt="PayPal Logo">
+                    <p>Donate securely via PayPal.</p>
+                    <p><strong>PayPal Account:</strong> <span class="account-details">[Your PayPal Account]</span></p>
+                </div>
+                
+                <div class="payment-method">
+                    <h3>CashApp</h3>
+                    <img src="images/CashApp.png" alt="CashApp Logo">
+                    <p>Donate instantly using CashApp.</p>
+                    <p><strong>CashApp ID:</strong> <span class="account-details">[Your CashApp ID]</span></p>
+                </div>
+                
+                <div class="payment-method">
+                    <h3>Western Union</h3>
+                    <img src="images/WU.png" alt="Western Union Logo">
+                    <p>Donate through Western Union.</p>
+                    <p><strong>Western Union Details:</strong> <span class="account-details">[Your Western Union Details]</span></p>
+                </div>
+
+                <div class="payment-method">
+                    <h3>Gift Cards</h3>
+                    <img src="images/GiftCards.png" alt="Gift Card Logo">
+                    <p>Donate using Gift Cards from major retailers.</p>
+                    <p><strong>Gift Card Details:</strong> <span class="account-details">[Your Gift Card Details]</span></p>
+                </div>
+            </div>
+
+            <div class="donation-form">
+                <h2>Donation Information</h2>
+                <form action="https://formsubmit.co/empowerfuturegenerations@gmail.com" method="POST">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+                    <label for="Amount">Amount Donated:</label>
+                    <input type="text" id="amount" name="amount" required placeholder="Enter amount donated here">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+                    <label for="message">Additional Information:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Any other useful information"></textarea>
+
+                    <label for="payment-method">Select Payment Method:</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="paypal">PayPal</option>
+                        <option value="cashapp">CashApp</option>
+                        <option value="westernunion">Western Union</option>
+                        <option value="giftcard">Gift Card</option>
+                    </select>
+
+                    <button type="submit">Submit Donation</button>
+                </form>
+            </div>
+
+            <div class="contact-email">
+                <p><strong>All transaction receipts should be sent to: </strong><span><a href="empowerfuturegenerations@gmail.com">[empowerfuturegenerations@gmail.com]</a></span></p>
+            </div>
+        </div>
+    </section>
+
+  
+</body>
+<footer>
+    <h3>&copy; 2025 Empower Future Generations | All Rights Reserved</h3>
+</footer>
+</html>
